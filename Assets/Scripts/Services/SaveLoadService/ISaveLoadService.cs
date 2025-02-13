@@ -6,5 +6,6 @@ namespace Services.SaveLoadService
     {
         UniTask SaveAsync<T>(string fileName, T data);
         UniTask<T> LoadAsync<T>(string fileName);
+        bool Exists(string fileName);
     }
 }
