@@ -4,10 +4,12 @@ namespace Services.InputService
 {
     public class InputService
     {
-        public Vector2 Movement => new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        public float MoveInput => Input.GetAxisRaw("Horizontal");
 
-        public bool JumpPressed => Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump");
+        public bool JumpInput => Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump");
+        
+        public bool DashInput => Input.GetKeyDown(KeyCode.Space);
 
-        public bool InteractPressed => Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire3");
+        public bool InteractInput => Input.GetKeyDown(KeyCode.E);
     }
 }
