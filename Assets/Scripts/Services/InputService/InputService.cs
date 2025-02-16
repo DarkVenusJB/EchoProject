@@ -8,7 +8,7 @@ namespace Services.InputService
 
         public bool JumpInput => Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump");
         
-        public bool DashInput => Input.GetKeyDown(KeyCode.Space);
+        public bool DashInput => Input.GetKeyDown(KeyCode.LeftShift);
 
         public bool InteractInput => Input.GetKeyDown(KeyCode.E);
     }

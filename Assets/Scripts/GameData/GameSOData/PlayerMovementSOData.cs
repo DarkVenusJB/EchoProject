@@ -17,8 +17,6 @@ namespace GameData.GameSOData
         public int extraJumps = 1;
         public float coyoteTime = 0.15f;
         public float jumpBufferTime = 0.2f;
-        public float fallMultiplier = 2.5f;
-        public float lowJumpMultiplier = 2f;
 
         [Header("Wall Slide Settings")]
         public float wallSlideSpeed = 2f;
@@ -29,7 +27,6 @@ namespace GameData.GameSOData
         public float dashSpeed = 20f;
         public float dashDuration = 0.2f;
         public float dashCooldown = 1f;
-        public int airDashes = 1;
 
         [Header("Collision Settings")]
         public float checkRadius = 0.2f;
