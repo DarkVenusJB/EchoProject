@@ -39,18 +39,15 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  jumpForce: 12
-  jumpDuration: 0.5
+  jumpForce: 4
+  jumpDuration: 0.2
   extraJumps: 1
-  coyoteTime: 0.15
+  coyoteTime: 2
   jumpBufferTime: 0.2
-  fallMultiplier: 2.5
-  lowJumpMultiplier: 2
   wallSlideSpeed: 2
-  wallJumpForce: 10
-  wallJumpDirection: 1.2
+  wallJumpForce: 5
+  wallJumpDirection: 10
   dashSpeed: 20
   dashDuration: 0.2
   dashCooldown: 1
-  airDashes: 1
   checkRadius: 0.2
